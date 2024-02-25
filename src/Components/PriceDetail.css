@@ -1,0 +1,83 @@
+/* PriceDetail.css */
+
+.price-detail-container {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    margin-top: 5%;
+    /* height: 100%; */
+    /* margin: 100; */
+  }
+  
+  .image-container {
+    width: 1500px;
+    text-align: center;
+    height: 20%;
+    margin-top:25px
+    /* margin-bottom: 20%; */
+  }
+  
+  .item-title {
+    color: whitesmoke;
+  }
+  
+  .price-details {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+  }
+  
+  .price-detail-item {
+    width: 40%;
+    margin: 30px;
+    background-color: #39FF14;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    position: absolute;
+    /* top: -20px; */
+    left: 10px;
+    color: white;
+    cursor: pointer;
+    /* margin-top: 5%; */
+  }
+  
+  /* Add media query for smaller screens (adjust max-width as needed) */
+  @media only screen and (max-width: 500px) {
+    .image-container {
+        margin-top: 20%;
+        width: 100%;
+/* height: 40%; */
+        text-align: center;
+        align-self: center;
+      }
+    .price-detail-item {
+      width: 80%;
+    }
+    .back-button {
+        /* position: absolute; */
+        border-top-left-radius: 15px;
+        border-bottom-left-radius :15px;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        /* top: 5px; */
+        /* left: 10px; */
+        color: white;
+        /* cursor: pointer; */
+        background-color: red;
+        /* z-index: 0; */
+        /* margin-bottom: 60px; */
+        margin-top: 10%;
+      }
+      .price-detail-container {
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: center;
+        margin-top: 5%; */
+      }
+  }
+  
